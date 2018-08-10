@@ -1,5 +1,5 @@
 # FCC-FrontEnd
-This is a culmnication of [https://www.freecodecamp.org](FreeCodeCamps) front end projects.
+This is a culmnication of [FreeCodeCamps](https://www.freecodecamp.org) front end projects.
 
 
 ## FCC-Tribute
