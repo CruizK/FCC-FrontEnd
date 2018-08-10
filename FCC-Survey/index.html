@@ -1,0 +1,93 @@
+<html>
+
+<head>
+  <title>Survey Name | Surveyer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <div id="form-outer">
+      <p id="description">
+        Survey Description
+      </p>
+      <form id="survey-form" action="">
+        <div class="row-tab">
+          <div class="labels">
+            <label for="name" id="name-label">Name:</label>
+          </div>
+          <div class="rightTab">
+            <input type="text" id="name" name="name" class="input-field" placeholder="Enter Your Name" required>
+          </div>
+        </div>
+        <div class="row-tab">
+          <div class="labels">
+            <label for="email" id="email-label">Email:</label>
+          </div>
+          <div class="rightTab">
+            <input type="email" id="email" name="email" class="input-field" placeholder="Enter Your Email" required>
+          </div>
+        </div>
+        <div class="row-tab">
+          <div class="labels">
+            <label for="age" id="number-label">Age:</label>
+          </div>
+          <div class="rightTab">
+            <input type="number" id="number" min="0" max="99" name="age" class="input-field" placeholder="Age" required>
+          </div>
+        </div>
+        <div class="row-tab">
+          <div class="labels">
+            <label for="number">Dropdown:</label>
+          </div>
+          <div class="rightTab">
+            <select name="dropdown" id="dropdown">
+              <option disabled value>Select an option</option>
+              <option value="option1">option1</option>
+              <option value="option2">option2</option>
+              <option value="option3">option3</option>
+              <option value="option4">option4</option>
+            </select>
+          </div>
+        </div>
+        <div class="row-tab">
+          <div class="labels">
+            <label for="radio-buttons">Radio Button Question:</label>
+          </div>
+          <div class="rightTab">
+            <ul id="radio-buttons">
+              <li class="radio"><label><input name="radio" class="user-rating" type="radio" value="1">Radio1</label></li>
+              <li class="radio"><label><input name="radio" class="user-rating" type="radio" value="2">Radio2</label></li>
+              <li class="radio"><label><input name="radio" class="user-rating" type="radio" value="3">Radio3</label></li>
+              <li class="radio"><label><input name="radio" class="user-rating" type="radio" value="4">Radio4</label></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row-tab">
+          <div class="labels">
+            <label for="checkboxes">Checkbox Question:</label>
+          </div>
+          <div class="rightTab">
+            <ul id="checkboxes">
+              <li class="checkbox"><label><input name="checkbox" class="user-rating" type="checkbox" value="1">Checkbox1</label></li>
+              <li class="checkbox"><label><input name="checkbox" class="user-rating" type="checkbox" value="2">Checkbox2</label></li>
+              <li class="checkbox"><label><input name="checkbox" class="user-rating" type="checkbox" value="3">Checkbox3</label></li>
+              <li class="checkbox"><label><input name="checkbox" class="user-rating" type="checkbox" value="4">Checkbox4</label></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row-tab">
+          <div class="labels">
+            <label for="comments">Additional Comments:</label>
+          </div>
+          <div class="rightTab">
+            <textarea class="input-field" name="textarea" id="comments" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
+          </div>
+        </div>
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </div>
+</body>
+
+</html>
