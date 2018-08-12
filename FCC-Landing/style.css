@@ -1,0 +1,156 @@
+
+/* Global */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    background-color: #eee;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    margin: 75px auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
+/* ---Nav Bar--- */
+
+header {
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+}
+
+#logo-div {
+    width: 60vw;
+}
+
+#header-img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    max-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+}
+
+#nav-list {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* Hook Area */
+
+#hook {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+#email {
+    width: 100%;
+    margin: 10px;
+}
+
+#submit {
+    text-align: center;
+}
+
+/* Feature List */
+
+#features {
+    padding-bottom: 40px;
+}
+
+#features>ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#features>ul>li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.feature-img {
+    width: 20%;
+}
+
+.feature-desc {
+    text-align: left;
+    padding-left: 20px;
+    width: 80%;
+    font-size: 26px;
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 20px 0px;
+}
+
+#pricing>ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pricing-box {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    flex: 1;
+    border: 1px solid black;
+    min-height: 200px;
+    text-align: left;
+}
+
+.pricing-box>h3 {
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    background-color: #bbb;
+}
+
+.pricing-rewards>li {
+    padding: 6px 10px;
+}
+
+
+
